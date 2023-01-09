@@ -212,7 +212,17 @@ body {
 }
 
 .img-main {
-  margin: 41px;
+  margin: 83px;
+}
+@media screen and (max-width: 1650px) {
+  .img-main {
+    margin: 36px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .img-main {
+    margin: 35px;
+  }
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   .img-main {
@@ -223,6 +233,7 @@ body {
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .img-main {
     width: 625px;
+    margin: 40px;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {

@@ -111,7 +111,17 @@
 }
 
 .img-main {
-    margin: 41px;
+
+  margin: 83px;
+ 
+  @media screen and (max-width: 1650px) {
+    margin: 36px;
+  }
+ 
+
+    @media screen and (max-width: 1440px) {
+      margin: 35px;
+    }
 
     @media screen and (min-width: 1025px) and (max-width: 1200px) {
         margin: 60px;
@@ -121,6 +131,7 @@
 
     @media screen and (min-width: 769px) and (max-width: 1024px) {
         width: 625px;
+        margin: 40px;
        
       }
 
