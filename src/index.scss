@@ -1,3 +1,8 @@
+@import './Components/Header/header' ;
+@import './Components/Main/main';
+@import './Components/Modal/modal';
+@import './Components//HeaderMobile/mobile';
+
 * {
     margin:  0;
     padding: 0;
@@ -22,7 +27,3 @@ body {
     
 }
 
-@import './Components/Header/header' ;
-@import './Components/Main/main';
-@import './Components/Modal/modal';
-@import './Components//HeaderMobile/mobile';
