@@ -1,4 +1,4 @@
-# <a href ='landing-page-rocktseat.vercel.app'>landingPage-Rocktseat </a>
+# <a href ='https://landing-page-rocktseat.vercel.app/'>landingPage-Rocktseat </a>
 
 Projeto feito a partir de um desafio da plataforma de estudo ROCKTSEAT <br>
 
