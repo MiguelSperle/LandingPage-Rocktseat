@@ -10,6 +10,7 @@ body {
   background-image: url("/img/blur-1.png"), url("/img/blur-2.png");
   background-repeat: no-repeat no-repeat;
   background-position: bottom left, right top;
+  min-height: 100vh;
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   body {
@@ -27,7 +28,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  margin: 50px 0 0 160px;
+  padding: 34px 0 0 160px;
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   #container-header {
@@ -35,6 +36,7 @@ body {
     justify-content: space-evenly;
     gap: 45px;
     white-space: nowrap;
+    margin-right: 50px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
