@@ -1,0 +1,137 @@
+.container-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+    @media screen and (min-width: 481px) and (max-width:768px) {
+        gap: 30px;
+       
+      }
+    
+}
+
+.inputHeaderMobile {
+    width: 200px;
+    height: 46px;
+    border: none;
+    border: 2px solid #8257E5;
+    border-radius: 8px;
+
+    background-color: #000;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 600;
+    transition: all 0.5s ease;
+
+    @media screen and (min-width: 1201px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+        display: none;
+        
+      }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: 481px) and (max-width:768px) {
+        position: relative;
+        top: 40px;
+      }
+    
+      @media screen and (min-width: 320px) and (max-width: 480px) {
+        position: relative;
+        top: 40px;
+     }
+    
+}
+
+.ola {
+    color: white;
+    @media screen and (min-width: 1201px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 481px) and (max-width:768px) {
+        text-align: center;
+        width: 250px;
+        position: relative;
+        top: 40px;
+       }
+
+       @media screen and (min-width: 320px) and (max-width: 480px) {
+         text-align: center;
+         width: 200px;
+         position: relative;
+         top: 60px;
+      }
+}
+
+.container-main h1 {
+    color: #fff;
+    font-size: 4.5rem;
+
+    @media screen and (min-width: 481px) and (max-width:768px) {
+       font-size: 2.5rem;
+       position: relative;
+       top: 45px;
+      }
+
+      @media screen and (min-width: 320px) and (max-width: 480px) {
+        font-size: 2.2rem;
+        position: relative;
+        top: 98px;
+      }
+    
+ 
+}
+
+.img-titleSombra{
+    margin-top: 20px;
+    width: 600px;
+
+    @media screen and (min-width: 481px) and (max-width:768px) {
+        width: 360px;
+       
+      }
+
+      @media screen and (min-width: 320px) and (max-width: 480px) {
+         width: 300px;
+         position: relative;
+         top: 80px;
+      }
+}
+
+.img-main {
+    margin: 41px;
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+        margin: 60px;
+        width: 705px;
+        
+      }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        width: 625px;
+       
+      }
+
+      @media screen and (min-width: 481px) and (max-width:768px) {
+        width: 480px;
+        margin: 62px;
+      }
+
+      @media screen and (min-width: 320px) and (max-width: 480px) {
+        width: 320px;
+        margin: 155px;
+     }
+
+}

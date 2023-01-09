@@ -1,0 +1,28 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  Manrope;
+    background-color: #000;
+    background-image: url(img/blur-1.png), url(img/blur-2.png);
+    background-repeat: no-repeat no-repeat;
+    background-position: bottom left, right top;
+    
+    @media screen and (min-width: 481px) and (max-width:768px) {
+         background-image: url(img/blur-1.png);
+       
+      }
+      
+      @media screen and (min-width: 320px) and (max-width: 480px) {
+        background-image: url(img/blur-1.png);
+      }
+    
+}
+
+@import './Components/Header/header' ;
+@import './Components/Main/main';
+@import './Components/Modal/modal';
+@import './Components//HeaderMobile/mobile';

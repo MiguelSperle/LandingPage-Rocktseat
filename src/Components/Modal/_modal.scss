@@ -1,0 +1,78 @@
+.center-modal {
+    position: fixed;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+
+}
+
+
+.container-modal {
+    border-radius: 10px;
+    width: 620px;
+    height: 270px;
+    background-color:rgba(0,0,0,0.9);
+    border: 3px #8257E5 solid ;
+    animation: cima 3s  cubic-bezier(0.2,-0.48, 0.37, 1.28);
+      
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+        width: 440px;
+    }
+    
+}
+
+
+
+
+
+@keyframes cima {
+    from {
+        transform: translateY(-160px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.Close {
+    position: relative;
+    left: 560px;
+    top: 20px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+        position: relative;
+        left: 400px;
+    }
+}
+
+.msg-ganhou {
+    color: aqua;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 50px;
+  
+   
+}
+
+.msg-codigo {
+    color:  aqua;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.codigo-promo {
+    color: crimson;
+    padding-left: 12px;
+}
