@@ -1,5 +1,7 @@
 # landingPage-Rocktseat
 
-Projeto feito a partir de um desafio da plataforma ROCKTSEAT <br>
+Projeto feito a partir de um desafio da plataforma de estudo ROCKTSEAT <br>
 
-Projeto feito em REACT e com a estilização em SCSS
+Projeto feito em REACT. <br>
+
+Nesse projeto eu pudi melhorar meus conhecimentos em ESTADO e React Components.
