@@ -12,12 +12,12 @@ body {
     background-position: bottom left, right top;
     
     @media screen and (min-width: 481px) and (max-width:768px) {
-         background-image: url(img/blur-1.png);
+         background-image: url(/img/blur-1.png);
        
       }
       
       @media screen and (min-width: 320px) and (max-width: 480px) {
-        background-image: url(img/blur-1.png);
+        background-image: url(/img/blur-1.png);
       }
     
 }
