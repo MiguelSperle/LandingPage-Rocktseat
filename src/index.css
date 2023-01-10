@@ -313,6 +313,12 @@ body {
     left: 400px;
   }
 }
+@media screen and (max-width: 480px) {
+  .Close {
+    position: relative;
+    left: 20px;
+  }
+}
 
 .msg-ganhou {
   color: aqua;
